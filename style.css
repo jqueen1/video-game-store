@@ -1,15 +1,24 @@
-
-
-
-
-
+body{
+    background-image: url("background.jpg");
+    color: white;
+}
 .creator{
     border-radius:50%;
+    margin-left:100px;
+    height:220px;
+    width:230px;
 }
 .name{
     margin-left:100px;
 }
 .move{
-    margin-left: 100px;sss
+    margin-left: 100px;
 }
-
+footer{
+    margin-left:100px;
+    background-color:grey;
+    color:;
+}
+h1 , h4{
+    margin-left:50px;
+}
