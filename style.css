@@ -2,12 +2,54 @@ body{
     background-image: url("background.jpg");
     color: white;
 }
-.creator{
-    border-radius:50%;
-    margin-left:100px;
-    height:220px;
-    width:230px;
+
+.navbar-nav{
+float:right;
 }
+
+.nav-link{
+    float:right;
+}
+
+
+
+.topnav .search-container {
+    width:100px;
+}
+
+.topnav .search-container input {
+     height: 30px;
+     width: 50px;
+}
+
+.topnav .search-container button {
+  float:none;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+}
+  
+.team img{
+    width:150px;
+    border-radius: 50%
+}
+  
+
+
+
+
+
 .name{
     margin-left:100px;
 }
@@ -17,8 +59,23 @@ body{
 footer{
     margin-left:100px;
     background-color:grey;
-    color:;
 }
+
 h1 , h4{
     margin-left:50px;
+}
+
+.pricing h{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.contact button{
+    width: 300px;
+}
+
+.carousel-item{
+    height:500px;
+  width:250%;
 }
