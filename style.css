@@ -1,5 +1,5 @@
 body{
-    background-color: gray;
+    background-color: white;
     color: black;
 }
 
@@ -10,8 +10,6 @@ float:right;
 .nav-link{
     float:right;
 }
-
-
 
 .topnav .search-container {
     width:100px;
