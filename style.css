@@ -1,6 +1,5 @@
 body{
     background-color:white;
-    color: black;
     font-family: 'Anton', sans-serif;
 }
 
@@ -8,9 +7,31 @@ body{
 float:right;
 }
 
+.navbar a{
+font-weight:bolder;
+}
+
+.header a{
+    font-weight:bolder;
+}
+
 .nav-link{
 float:right;
 }
+
+.nav-link:hover{
+    background-color:gray;
+    color: white;
+}
+
+
+
+
+.pricing h4:hover{
+    background-color:blue;
+}
+
+
 
 .topnav .search-container {
  width:100px;
@@ -44,17 +65,29 @@ float:right;
     border-radius: 50%
 }
 
+.team {
+
+}
+
+
+
 .name{
     margin-left:100px;
 }
 .move{
     margin-left: 100px;
 }
+
 footer{
     margin-left:100px;
     background-color:#3C4E99;
-    color: white;
+    color:white;
 }
+
+footer button{ 
+ 
+
+
 
 h1 , h4{
     margin-left:50px;
@@ -72,9 +105,12 @@ h1 , h4{
 
 
 .services img{
-   width:150px;
+    width:150px;
     border-radius: 50%
 }
+
+
+
 
 Previous
 NextCopy
