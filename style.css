@@ -1,6 +1,7 @@
 body{
-    background-color: white;
+    background-color:white;
     color: black;
+    font-family: 'Anton', sans-serif;
 }
 
 .navbar-nav{
@@ -8,11 +9,11 @@ float:right;
 }
 
 .nav-link{
-    float:right;
+float:right;
 }
 
 .topnav .search-container {
-    width:100px;
+ width:100px;
 }
 
 .topnav .search-container input {
@@ -26,7 +27,7 @@ float:right;
   margin-top: 8px;
   margin-right: 16px;
   background: #ddd;
-  font-size: 17px;
+  font-size: 18px;
   border: none;
   cursor: pointer;
 }
@@ -42,11 +43,6 @@ float:right;
     width:150px;
     border-radius: 50%
 }
-  
-
-
-
-
 
 .name{
     margin-left:100px;
@@ -79,8 +75,6 @@ h1 , h4{
    width:150px;
     border-radius: 50%
 }
-
-
 
 Previous
 NextCopy
