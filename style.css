@@ -5,6 +5,12 @@ body{
 h1{
     text-align: center;
 }
+.center{
+    text-align: center;
+}
+.row {
+    padding-left: 50px;
+}
 .navbar-nav{
     float:right;
 }

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -211,59 +212,131 @@
     <!--Trusted By-->
     <section class="container trusted by">
         <h1>Trusted By</h1>
+        <P class="center"> Companies like playstation, Microsoft, Nintendo, and Turtle Beach help supply our store with all of the newest and best games! </P>
         <br/>
-        <P> Companies like playstation, Microsoft, Nintendo, and Turtle Beach help supply our store with all of the newest and best games! </P>
-         <div class="row">
+        <div class="row">
            <div class="col-md-3">
                 <img  src="xbox.jpg" height="200px" width="200px">
     </div>
     <div class="col-md-3">
-        <img  src="nintendo.png" height="200px" width="200px">
+        <img  src="nintendo.jpg" height="200px" width="200px">
     </div>
      <div class="col-md-3">
-        <img  src="ps.jpg"  height="200px" width="200px">
+        <img  src="ps.png"  height="200px" width="200px">
         </div>
     <div class="col-md-3">
-        <img id="contact" src="turtlebeach.jpg"  height="200px" width="200px">
+        <img id="contact" src="turtlebeach.png"  height="200px" width="200px">
     </div>
     </div>
     </section>
 <br/>
     <!--contact-->
-    <section class="container contact">
-        <h1>Get In Touch With Day Break </h1>
-        <br/>
-        <h4>Want to ask us a question or share a comment? Drop us a note by filling out the form below or contacting us at daybreak@yahoo.com</h4>
+    <!--<section class="container contact">-->
+    <!--    <h1>Get In Touch With Day Break </h1>-->
+    <!--    <br/>-->
+    <!--    <h4>Want to ask us a question or share a comment? Drop us a note by filling out the form below or contacting us at daybreak@yahoo.com</h4>-->
 
-        <div class="col-md-6">
-            <div class="col-sm-6">
-                <label for="fname">Name</label>
+    <!--    <div class="col-md-6">-->
+    <!--        <div class="col-md-6">-->
+    <!--            <label for="fname">Name</label>-->
 
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-            </div>
-            <div class="col-sm-6">
-                <label for="lname">Email</label>
-                <i class="far fa-envelope"></i>
+    <!--            <input type="text" id="fname" name="firstname" placeholder="Your name..">-->
+    <!--        </div>-->
+    <!--        <div class="col-md-6">-->
+    <!--            <label for="lname">Email</label>-->
+    <!--            <i class="far fa-envelope"></i>-->
 
-                <input type="text" id="lname" name="lastname" placeholder="Your email..">
+    <!--            <input type="text" id="lname" name="lastname" placeholder="Your email..">-->
+    <!--        </div>-->
+    <!--        <div class="col-md-6">-->
+    <!--            <label for="lname">Phone</label>-->
+    <!--            <i class="fas fa-phone"></i>-->
+    <!--            <input type="text" id="lname" name="lastname" placeholder="Your phone number..">-->
+    <!--        </div>-->
+    <!--        <div class="col-md-6">-->
+    <!--            <label for="lname">Questions</label>-->
+    <!--            <i class="fas fa-question"></i>-->
+    <!--            <input type="text" id="lname" name="lastname" placeholder="Your questions..">-->
+    <!--        </div>-->
+    <!--        <br/>-->
+    <!--        <div>-->
+    <!--            <button type="button" class="btn btn-primary">Submit</button>-->
+    <!--        </div>-->
+    <!--        <br/>-->
+    <!--    </div>-->
+    <!--</section>-->
+<!--Section: Contact v.2-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-11 mb-md-0 mb-10">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-right">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
             </div>
-            <div class="col-sm-6">
-                <label for="lname">Phone</label>
-                <i class="fas fa-phone"></i>
-                <input type="text" id="lname" name="lastname" placeholder="Your phone number..">
-            </div>
-            <div class="col-md-6">
-                <label for="lname">Questions</label>
-                <i class="fas fa-question"></i>
-                <input type="text" id="lname" name="lastname" placeholder="Your questions..">
-            </div>
-            <br/>
-            <div>
-                <button type="button" class="btn btn-primary">Submit</button>
-            </div>
-            <br/>
-        </div>
-    </section>
+            <div class="status"></div>
+      </div>
 
     <!--footer-->
     <footer class="container footer">
