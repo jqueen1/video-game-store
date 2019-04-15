@@ -2,35 +2,33 @@ body{
     background-color:white;
     font-family: 'Anton', sans-serif;
 }
-
+h1{
+    text-align: center;
+}
 .navbar-nav{
-float:right;
+    float:right;
 }
 
 .navbar{
-position:fixed;
-width:100%;
-top:0;
-padding: 10px 0;
-transition:all 0.5s ease;
-z-index: 1;
-box-shadow: 2px 2px 20px #ddd;
+    position:fixed;
+    width:100%;
+    top:0;
+    padding: 10px 0;
+    transition:all 0.5s ease;
+    z-index: 1;
+    box-shadow: 2px 2px 20px #ddd;
 }
 
 .nav-link{
-float:right;
+    float:right;
 }
-
+.box:hover{
+    box-shadow: 2px 2px 20px #ddd;
+}
 .nav-link:hover{
     background-color:gray;
     color: white;
 }
-
-.pricing h4:hover{
-    background-color:blue;
-}
-
-
 
 .topnav .search-container {
  width:100px;
@@ -42,14 +40,14 @@ float:right;
 }
 
 .topnav .search-container button {
-  float:none;
-  padding: 6px 10px;
-  margin-top: 8px;
-  margin-right: 16px;
-  background: #ddd;
-  font-size: 18px;
-  border: none;
-  cursor: pointer;
+      float:none;
+      padding: 6px 10px;
+      margin-top: 8px;
+      margin-right: 16px;
+      background: #ddd;
+      font-size: 18px;
+      border: none;
+      cursor: pointer;
 }
 
 
@@ -60,15 +58,10 @@ float:right;
 }
   
 .team img{
-    width:150px;
+    width:250px;
+    height:300px;
     border-radius: 50%
 }
-
-.team {
-
-}
-
-
 
 .name{
     margin-left:100px;
@@ -82,10 +75,6 @@ footer{
     color: white;
 }
 
-h1 , h4{
-    margin-left:50px;
-}
-
 .pricing h{
     text-align: center;
     font-style: italic;
@@ -95,11 +84,9 @@ h1 , h4{
 .contact button{
     width: 500px;
 }
-
-
-.services img{
-    width:150px;
-    border-radius: 50%
+.col-sm-4 img{
+    height:400px;
+    width: 300px;
 }
 
 Previous
